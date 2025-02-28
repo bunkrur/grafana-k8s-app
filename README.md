@@ -11,7 +11,7 @@ This plugin relies on presence of default kube-state-metrics and node-exporter m
 
 ### Requirements
 
-* It expects the presence of `cluster` label on all the metrics.
+* It expects the presence of a cluster identifier label on all the metrics (defaults to `cluster`, can be configured via `CLUSTER_LABEL` constant in `src/constants.ts`).
   
 ### Metrics used
 
